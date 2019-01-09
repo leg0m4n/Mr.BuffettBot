@@ -12,7 +12,7 @@ Before you run the code, you need to make sure you have the next python librarie
 
 ### How to run it?
 
-Programs Tbot.py(in charge of sending messages to users in telegram) and parser.py(in charge of parsing twitter accounts) should run simultaniously on one machine.
+Programs bot3.py(in charge of sending messages to users in telegram) and parser.py(in charge of parsing twitter accounts) should run simultaniously on one machine.
 
 ### What is what?
 
@@ -20,4 +20,8 @@ Programs Tbot.py(in charge of sending messages to users in telegram) and parser.
 * parser.py - parsing od twitter accounts
 * data_v2.txt - text file where all tweets with keywords go
 * TeleConfig.py - config file for Tbot.py (telegram bot)
-* Tbot.py - telegram bot
+* bot3.py - telegram bot
+* words_list.txt - list of keywords
+* errors.txt - file where all error goes if any occure
+* buffett_bot.db - database of the bot users 
+* announcment_check.txt - here you could write the announcment and it will be send to all bot users.
