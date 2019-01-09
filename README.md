@@ -1,3 +1,7 @@
+What is it?
+This is a bot that sends you  "extream" tweets(that could significantly influence the price of crypto) from official cryptocurrencies' twitter accounts through Telegram-bot. The "extreamness" of a tweet is determined through keywords.
+For instance, Tezos posts a tweet about new listing on some new cryptomarket,then this bot will see that this tweet has keywords(one of "list, listed, listing") and consider this tweet as an "extream" and will send it instantly to you through Telegram. 
+
 Preparation:
 Before you run the code, you need to make sure you have the next python libraries:
 nltk
